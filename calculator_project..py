@@ -5,7 +5,7 @@ Add = lambda a, b: a + b #Creat function to Num
 subtract = lambda x, y: x - y #Creat function to subtrac
 multyply = lambda x, y: x * y #Multply *
 divide = lambda x, y: x / y #divide /
-sqare_root = lambda x: math.sqrt(x) Creat function to find Sqare root 
+sqare_root = lambda x: math.sqrt(x) #Creat function to find Sqare root 
 # Show all operation's name 
 print("\n 1. Add \n 2. subtract \n 3. multyply \n 4. divide \n 5. sqare_root \n 6. Done")
 print("if your mison is sqare root we will root only your first input")
