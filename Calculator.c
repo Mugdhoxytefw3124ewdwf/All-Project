@@ -11,14 +11,14 @@ int main() {
 
     do {
         printf("Type here your operator (*, /, +, -) or 1 to exit: ");
-        scanf(" %c", &opreator); // Space before %c to consume leading whitespace
+        scanf(" %c", &opreator); // Note : Space before %c to consume leading whitespace.
 
         if (opreator == '1') {
             break;
         }
 
         printf("Type here your num 1, 2: ");
-        scanf(" %d ,%d", &num, &num2); // Correct format specifier for input separated by comma
+        scanf(" %d ,%d", &num, &num2); 
 
         switch (opreator) {
             case '+':
